@@ -14,7 +14,7 @@ sign = 0
 textMessagew = 0
 time = 0
 
-bot = telebot.TeleBot("5537547955:AAHTXgYunAWpv29f8G4YoTWP_4c9W3glIzA")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def start(message):
